@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="tailwindcss/all.min.js"></script>
+  <link href="https://fonts.cdnfonts.com/css/trade-gothic-lt-std" rel="stylesheet">
+  <title></title>
+  <style>
+    * {
+      font-family: 'Trade Gothic LT Std', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-800 font-sans">
+  <nav class="fixed top-0 right-0 left-0 z-30">
+    <div class="flex justify-between items-center h-16 p-4 bg-sky-800 border-b border-slate-600">
+      <div class="font-semibold text-lg text-fuchsia-500"><img src="src/images/yapii-store.png" class="w-16" /></div>
+      
+      <div id="toggle" class="text-white md:hidden text-3xl cursor-pointer">=</div>
+    </div>
+  </nav>
+  
+  <div class="hidden fixed left-0 w-1/2 h-full px-5 pb-8 pt-16 text-base">
+    <div class="py-6 text-sm text-slate-500">
+      <span class="pr-1 hover:text-fuchsia-600"><a href="/">Home</a></span>&gt;<span class="pl-1 hover:text-fuchsia-600"><a href="/materi.html">Materi</a></span>
+    </div>
+  </div>
+  
+  <div id="list" class="hidden fixed w-1/2 h-full bg-slate-800 px-5 pb-8 pt-16 z-20 text-base">
+    <div class="py-6 text-sm text-slate-500">
+      <span class="pr-1 hover:text-fuchsia-600"><a href="/external_files/A/1/TES2/home.html">Home</a></span>><span class="pl-1 hover:text-fuchsia-600"><a href="/external_files/A/1/TES2/dash.html">Materi</a></span>
+    </div>
+    <ul>
+      <li class="pb-2 text-white hover:text-fuchsia-600"><a href="/external_files/A/1/TES2/dash.html">Dashboard</a></li>
+      <li class="pb-2 text-white hover:text-fuchsia-600"><a href="/external_files/A/1/TES2/server.html">Materi</a></li>
+      <li class="pb-2 text-white hover:text-fuchsia-600">Princing</li>
+      <li class="pb-2 text-white hover:text-fuchsia-600">Profile</li>
+    </ul>
+  </div>
+  
+  <script src="src/scripts/toggle.js"></script>
+  
+  
+  <div class="bg-sky-900 px-4 pt-20 pb-4 rounded-b-xl">
+    <div class="relative overflow-hidden w-full mx-auto rounded-xl">
+      <div id="carousel-track" class="flex transition-transform duration-700 ease-in-out">
+        <div class="w-full flex-shrink-0">
+        <img src="https://placehold.co/600x250?text=Slide+1" class="w-full" />
+      </div>
+        <div class="w-full flex-shrink-0">
+        <img src="https://placehold.co/600x250?text=Slide+2" class="w-full" />
+      </div>
+      <div class="w-full flex-shrink-0">
+        <img src="https://placehold.co/600x250?text=Slide+3" class="w-full" />
+      </div>
+    </div>
+  </div>
+  </div>
+        
+  <script src="src/scripts/carousel.js"></script>
+  
+  <div class="flex-1 justify-center items-center bg-slate-800">
+    <div class="mt-4 ml-4">
+      <h2 class="font-semibold text-lg text-white">Populer Saat Ini🔥</h2>
+      <span class="text-sm text-slate-100">Berikut adalah pilihan populer saat ini.</span>
+    </div>
+    <div class="flex justify-center items-center">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 m-4 w-full">
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+      <div class="flex bg-[url('./src/images/txtre111.png')] p-2 rounded-xl active:scale-95 ease-in-out duration-500">
+        <img src="https://placehold.co/300x300?text=Example" class="w-12 rounded-md" />
+        <div class="ml-2 my-auto">
+          <h2 class="text-white text-sm">Title...</h2>
+          <span class="text-slate-100 text-xs">Desc...</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="flex-1 justify-center items-center">
+    <div class="mt-4 ml-4">
+      <h2 class="font-semibold text-lg text-white">Lainnya...</h2>
+      <span class="text-sm text-slate-100">Berikut adalah pilihan lain yang tersedia.</span>
+    </div>
+    <div class="flex justify-center items-center">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 m-4 w-full">
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+        <div class="bg-[url('./src/images/txtre111.png')] p-2 pb-4 rounded-xl active:scale-95 ease-in-out duration-500">
+          <img src="https://placehold.co/300x300?text=Example" class="w-full h-32 object-cover rounded-md" />
+          <div class="my-auto">
+            <h2 class="text-sm text-white">Title...</h2>
+            <span class="text-xs text-slate-100">Desc...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
